@@ -1,0 +1,26 @@
+rhcCurriculum_Formacion_AcademicaAgregarModificar
+	||
+	||							
+	||
+	rhcUPI_DatosCurriculum_Formacion_AcademicaAgregarModificar
+		||
+		||							
+		||
+		rhcUPI_Curriculum_Formacion_AcademicaAgregarModificarValidar
+		rhcCurriculumExistenciaValidar
+		rhcUPI_Curriculum_FormacionAgregarModificar
+		rhcUPI_Curriculum_Formacion_NivelEductaivoAgregarModificar
+		rhcUPI_Curriculum_Formacion_PaisAgregarModificar
+		rhcUPI_Curriculum_Formacion_InstitucionAgregarModificar
+		rhcUPI_Curriculum_Formacion_EstudioAgregarModificar
+
+		/Bitacora
+		rhcUPI_Datos_BitacoraAgregar
+
+
+		
+
+		
+		
+
+	

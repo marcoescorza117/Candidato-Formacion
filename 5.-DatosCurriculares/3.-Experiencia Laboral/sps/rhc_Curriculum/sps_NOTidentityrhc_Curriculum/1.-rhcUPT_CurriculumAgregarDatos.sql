@@ -1,0 +1,29 @@
+CREATE PROCEDURE [dbo].[rhcUPT_CurriculumAgregarDatos]
+	 @idCurriculum INT
+	,@idPersona INT 
+
+	,@noError int OUTPUT 
+	,@mensaje varchar(255) OUTPUT
+AS 
+BEGIN 
+	BEGIN TRY
+	SET IDENTITY_INSERT [rhc_Curriculum] ON 
+ 	INSERT INTO rhc_Curriculum 
+	(
+		 idPersona
+		,idCurriculum
+	)
+	VALUES	(
+		 @idPersona
+		,@idCurriculum
+	)
+	SET IDENTITY_INSERT [rhc_Curriculum] OFF 
+ 	END TRY 
+	BEGIN CATCH 
+		 SET @noError=ERROR_NUMBER()
+		 SET @mensaje=ERROR_MESSAGE()
+	END CATCH
+END
+
+GO
+

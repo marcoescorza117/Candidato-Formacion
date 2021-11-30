@@ -1,0 +1,5 @@
+rhc_Curriculum -> Esta entidad se genera una sola vez por persona, por lo que se debe verificar en cada sp de las secciones
+		si este existe  se toma el idCurriculum
+		si este no existe se genera y se toma el idCurriculum generado
+
+rhc_Curriculum_Formacion -> Por cada formación se registra aqui 
