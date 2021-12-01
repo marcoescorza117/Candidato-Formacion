@@ -1,0 +1,31 @@
+rhcCurriculum_Formacion_AdicionalAgregarModificar
+	||
+	||							
+	||
+	rhcUPI_DatosCurriculum_Formacion_AdicionalAgregarModificar
+		||
+		||							
+		||
+		rhcUPI_Curriculum_Formacion_AcademicaAgregarModificarValidar
+		rhcCurriculumExistenciaValidar
+		rhcUPI_Curriculum_FormacionAgregarModificar
+
+		rhcUPI_Curriculum_Formacion_TipoFormacionAdicionalAgregarModificar
+		rhcUPI_Curriculum_Formacion_EstudioAgregarModificar
+		rhcUPI_Curriculum_Formacion_InstitucionAgregarModificar
+		rhcUPI_Curriculum_Formacion_DuracionAgregarModificar
+
+		/Bitacora
+		rhcUPI_Datos_BitacoraAgregar
+
+
+Recordar que tienen que existir diversas funciones 
+
+
+		
+
+		
+
+		
+
+	
