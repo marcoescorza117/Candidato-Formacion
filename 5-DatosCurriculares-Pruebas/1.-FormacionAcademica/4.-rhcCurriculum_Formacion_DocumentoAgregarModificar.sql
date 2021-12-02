@@ -14,12 +14,12 @@ DECLARE @mensaje varchar(255)
 
 -- TODO: Set parameter values here.
 SELECT 
-   @idCurriculumFormacion = ''
-  ,@idDocumento = ''
-  ,@usuarioRealizo = ''
-  ,@dispositivo = ''
-  ,@direccionIP = ''
-  ,@app = ''
+   @idCurriculumFormacion = '33'
+  ,@idDocumento = '44'
+  ,@usuarioRealizo = 'test'
+  ,@dispositivo = 'test'
+  ,@direccionIP = 'test'
+  ,@app = 'test'
   --,@idCurriculumFormacionDocumento OUTPUT = '' --Edicion
 
 EXECUTE @RC = [app].[rhcCurriculum_Formacion_DocumentoAgregarModificar] 

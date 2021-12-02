@@ -20,17 +20,17 @@ DECLARE @mensaje varchar(255)
 -- TODO: Set parameter values here.
 
 SELECT
-   @idPersona =''
-  ,@idNivelEducativo=''
-  ,@idPais=''
-  ,@idInstitucion=''
-  ,@institucion=''
-  ,@idProgramaEducativo=''
-  ,@estudio=''
-  ,@usuarioRealizo=''
-  ,@dispositivo=''
-  ,@direccionIP=''
-  ,@app=''
+   @idPersona ='1193'
+  ,@idNivelEducativo='9'
+  ,@idPais='1'
+  ,@idInstitucion='1380'
+  ,@institucion='Universidad Michoacana de San Nicolás de Hidalgo'
+  ,@idProgramaEducativo='139'
+  ,@estudio='MAESTRIA EN CIENCIA E INGENIERIA DE MATERIALES.'
+  ,@usuarioRealizo='test'
+  ,@dispositivo='test'
+  ,@direccionIP='test'
+  ,@app='test'
   --,@idCurriculumFormacion OUTPUT =''
 
 EXECUTE @RC = [app].[rhcCurriculum_Formacion_AcademicaAgregarModificar] 
