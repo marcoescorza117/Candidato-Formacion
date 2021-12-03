@@ -14,16 +14,16 @@ DECLARE @noError int
 DECLARE @mensaje varchar(255)
 
 -- TODO: Set parameter values here.
-SELECT
+SELECT 
+   @idPersona = '1020'
+  ,@idTipoTICS = '3'
+  ,@herramientas = 'T'
+  ,@usuarioRealizo = 'testing'
+  ,@dispositivo = 'testing'
+  ,@direccionIP = 'testing'
+  ,@app = 'testing'
+  --,@idCurriculumFormacion ='49'
 
-   @idPersona = ''
-  ,@idTipoTICS = ''
-  ,@herramientas = ''
-  ,@usuarioRealizo = '' = ''
-  ,@dispositivo = ''
-  ,@direccionIP = ''
-  ,@app = ''
-  --,@idCurriculumFormacion OUTPUT = '' --- EDICION
 EXECUTE @RC = [app].[rhcCurriculum_Uso_TICSAgregarModificar] 
    @idPersona
   ,@idTipoTICS
@@ -40,7 +40,7 @@ EXECUTE @RC = [app].[rhcCurriculum_Uso_TICSAgregarModificar]
 SELECT 
    @idCurriculumFormacion as idCurriculumFormacion
   ,@noError as noError
-  ,@mensaje as mensaje
+  ,@mensaje as mensaje 
 GO
 
 
