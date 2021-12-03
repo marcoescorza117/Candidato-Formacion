@@ -26,7 +26,7 @@ SELECT
   ,@idProgramaEducativo =''
   ,@estudio = ''
   ,@fecha = ''
-  ,@duracion = ''
+  ,@duracion = CAST('admin' AS VARBINARY(MAX))
   ,@idInstitucion = ''
   ,@institucion = ''
   ,@usuarioRealizo = ''
