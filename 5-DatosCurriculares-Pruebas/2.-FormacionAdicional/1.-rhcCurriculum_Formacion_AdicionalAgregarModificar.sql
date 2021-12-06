@@ -21,18 +21,18 @@ DECLARE @mensaje varchar(255)
 -- TODO: Set parameter values here.
 SELECT 
 
-   @idPersona =''
-  ,@idTipoFormacionAdicional =''
-  ,@idProgramaEducativo =''
-  ,@estudio = ''
-  ,@fecha = ''
-  ,@duracion = CAST('admin' AS VARBINARY(MAX))
-  ,@idInstitucion = ''
-  ,@institucion = ''
-  ,@usuarioRealizo = ''
-  ,@dispositivo = ''
-  ,@direccionIP = ''
-  ,@app = ''
+   @idPersona ='1192'
+  ,@idTipoFormacionAdicional ='3'
+  ,@idProgramaEducativo ='0'
+  ,@estudio = 'Curso básico de programacion esoterica'
+  ,@fecha = '2020-05-07'
+  ,@duracion = CAST('1 mes' AS VARBINARY(MAX))
+  ,@idInstitucion = '0'
+  ,@institucion = 'GeeksforGeeks'
+  ,@usuarioRealizo = 'test'
+  ,@dispositivo = 'test'
+  ,@direccionIP = 'test'
+  ,@app = 'test'
   --,@idCurriculumFormacion OUTPUT = '' -- edicion
 
 EXECUTE @RC = [app].[rhcCurriculum_Formacion_AdicionalAgregarModificar] 

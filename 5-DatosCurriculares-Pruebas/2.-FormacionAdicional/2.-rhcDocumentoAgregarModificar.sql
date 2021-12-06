@@ -18,16 +18,16 @@ DECLARE @mensaje varchar(255)
 
 -- TODO: Set parameter values here.
 SELECT 
-	@idTipoDocumento = ''
-   ,@archivo = ''
-   ,@descripcion = ''
-   ,@archivoServidor = ''
-   ,@archivoServidorRuta = ''
-   ,@fechaRegistro = ''
-   ,@usuarioRealizo = ''
-   ,@dispositivo = ''
-   ,@direccionIP = ''
-   ,@app = ''
+	@idTipoDocumento = '11'
+   ,@archivo = 'diploma.pdf'
+   ,@descripcion = 'diplomaRFC'
+   ,@archivoServidor = 'TheDSksay2Ygbljg.pdf'
+   ,@archivoServidorRuta = '11fsdkjfsYGUYgbljg'
+   ,@fechaRegistro = '2021-12-06'
+   ,@usuarioRealizo = 'test'
+   ,@dispositivo = 'test'
+   ,@direccionIP = 'test'
+   ,@app = 'testing'
    --,@idDocumento OUTPUT = ''
 EXECUTE @RC = [app].[rhcDocumentoAgregarModificar] 
    @idTipoDocumento
