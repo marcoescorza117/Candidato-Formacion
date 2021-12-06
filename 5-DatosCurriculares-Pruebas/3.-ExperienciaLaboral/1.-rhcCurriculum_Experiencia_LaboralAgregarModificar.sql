@@ -20,14 +20,14 @@ DECLARE @mensaje varchar(255)
 
 -- TODO: Set parameter values here.
 SELECT 
-   @idPersona = '1193'
+   @idPersona = '1020'
   ,@idPais = '1'
   ,@idInstitucion = '0'
-  ,@institucion = 'COSICE'
-  ,@fechaInicio = '2013-12-12'
-  ,@fechaTermino = '2015-01-01'
-  ,@puesto = 'Administrador de sistemas'
-  ,@actividades = 'Generar los sistemas'
+  ,@institucion = 'Grupo Salinas'
+  ,@fechaInicio = '2015-12-12'
+  ,@fechaTermino = '2020-01-01'
+  ,@puesto = 'Desarrollador de sistema'
+  ,@actividades = 'Android developer'
   ,@usuarioRealizo = 'test'
   ,@dispositivo = 'test'
   ,@direccionIP = 'test'

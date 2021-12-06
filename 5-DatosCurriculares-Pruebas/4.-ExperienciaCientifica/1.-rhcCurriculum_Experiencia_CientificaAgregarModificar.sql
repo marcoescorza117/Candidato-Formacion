@@ -17,15 +17,15 @@ DECLARE @mensaje varchar(255)
 
 -- TODO: Set parameter values here.
 SELECT 
-   @idPersona = ''
-  ,@idPerfilCientificoDocente = ''
-  ,@idTipoPerfilCientificoDocente = ''
-  ,@fechaInicio = ''
-  ,@fechaTermino = ''
-  ,@usuarioRealizo = ''
-  ,@dispositivo = ''
-  ,@direccionIP = ''
-  ,@app = ''
+   @idPersona = '1192'
+  ,@idPerfilCientificoDocente = '1'
+  ,@idTipoPerfilCientificoDocente = '1'
+  ,@fechaInicio = '2020-05-05'
+  ,@fechaTermino = '2022-01-01'
+  ,@usuarioRealizo = 'test'
+  ,@dispositivo = 'test'
+  ,@direccionIP = 'test'
+  ,@app = 'test'
   --,@idCurriculumFormacion OUTPUT = '' --edicion
 
 

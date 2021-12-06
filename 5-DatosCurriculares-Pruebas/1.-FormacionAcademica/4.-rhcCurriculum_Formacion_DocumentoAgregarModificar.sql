@@ -14,8 +14,8 @@ DECLARE @mensaje varchar(255)
 
 -- TODO: Set parameter values here.
 SELECT 
-   @idCurriculumFormacion = '33'
-  ,@idDocumento = '44'
+   @idCurriculumFormacion = '65'
+  ,@idDocumento = '46'
   ,@usuarioRealizo = 'test'
   ,@dispositivo = 'test'
   ,@direccionIP = 'test'
