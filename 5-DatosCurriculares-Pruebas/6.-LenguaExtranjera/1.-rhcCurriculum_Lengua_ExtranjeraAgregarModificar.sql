@@ -20,14 +20,14 @@ DECLARE @mensaje varchar(255)
 
 -- TODO: Set parameter values here.
 SELECT
-   @idPersona = '1193' 
-  ,@idIdioma = '3' 
-  ,@idIdiomaTipoCertificacion = '16' 
-  ,@nivel = 'C1' 
+   @idPersona = '1020' 
+  ,@idIdioma = '1' 
+  ,@idIdiomaTipoCertificacion = '1' 
+  ,@nivel = 'B2' 
   ,@idInstitucion = '0' 
-  ,@institucion = 'GOETHE-TEST PRO' 
+  ,@institucion = 'TOEFL' 
   ,@fecha = '2021-06-07' 
-  ,@duracion = CAST('1 monat' AS VARBINARY(MAX))
+  ,@duracion = CAST('3 horas' AS VARBINARY(MAX))
   ,@usuarioRealizo = 'test' 
   ,@dispositivo = 'test' 
   ,@direccionIP = 'test' 

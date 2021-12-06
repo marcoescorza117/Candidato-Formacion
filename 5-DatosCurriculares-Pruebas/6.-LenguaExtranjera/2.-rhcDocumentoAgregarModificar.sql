@@ -19,10 +19,10 @@ DECLARE @mensaje varchar(255)
 -- TODO: Set parameter values here.
 SELECT 
 	@idTipoDocumento = '8'
-   ,@archivo = 'constace1.pdf'
-   ,@descripcion = 'examenReferencia1'
-   ,@archivoServidor = 'aOIYjRTalYHFDGF3.pdf'
-   ,@archivoServidorRuta = 'aOIYjRTalheY3.pdf'
+   ,@archivo = 'constace1AC.pdf'
+   ,@descripcion = 'wbOlKGMZTS'
+   ,@archivoServidor = 'wbOlKGMZTS.pdf'
+   ,@archivoServidorRuta = 'wbOlKGMZTS.pdf'
    ,@fechaRegistro = '2021-12-01'
    ,@usuarioRealizo = 'test'
    ,@dispositivo = 'test'
