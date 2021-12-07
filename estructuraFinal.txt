@@ -1,0 +1,24 @@
+.
+├── 1.-FormacionAcademica
+│   ├── 1.-[rhcCurriculum_Formacion_AcademicaAgregarModificar].sql
+│   ├── 2.-[rhcCurriculum_Formacion_AreaConocimientoAgregarModificar].sql
+│   ├── 3.-[rhcDocumentoAgregarModificar].sql
+│   └── 4.-[rhcCurriculum_Formacion_DocumentoAgregarModificar].sql
+├── 2.-FormacionAdicional
+│   ├── 1.-[rhcCurriculum_Formacion_AdicionalAgregarModificar].sql
+│   ├── 2.-[rhcDocumentoAgregarModificar].sql
+│   └── 3.-[rhcCurriculum_Formacion_DocumentoAgregarModificar].sql
+├── 3.-ExperienciaLaboral
+│   └── 1.-[rhcCurriculum_Experiencia_LaboralAgregarModificar].sql
+├── 4.-ExperienciaCientifica
+│   ├── 1.-[rhcCurriculum_Experiencia_CientificaAgregarModificar].sql
+│   ├── 2.-[rhcDocumentoAgregarModificar].sql
+│   └── 3.-[rhcCurriculum_Formacion_DocumentoAgregarModificar].sql
+├── 5.-UsodeTICS
+│   └── 1.-[rhcCurriculum_Uso_TICSAgregarModificar].sql
+└── 6.-LenguaExtranjera
+    ├── 1.-[rhcCurriculum_Uso_TICSAgregarModificar].sql
+    ├── 2.-[rhcDocumentoAgregarModificar].sql
+    └── 3.-[rhcCurriculum_Formacion_DocumentoAgregarModificar].sql
+
+6 directories, 15 files
