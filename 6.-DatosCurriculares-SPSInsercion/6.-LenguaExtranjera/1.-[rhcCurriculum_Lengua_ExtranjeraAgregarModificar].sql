@@ -3,8 +3,13 @@ GO
 
 DECLARE @RC int
 DECLARE @idPersona int
-DECLARE @idTipoTICS smallint
-DECLARE @herramientas varchar(max)
+DECLARE @idIdioma smallint
+DECLARE @idIdiomaTipoCertificacion smallint
+DECLARE @nivel varchar(25)
+DECLARE @idInstitucion int
+DECLARE @institucion varchar(250)
+DECLARE @fecha datetime
+DECLARE @duracion varbinary(25)
 DECLARE @usuarioRealizo varchar(60)
 DECLARE @dispositivo varchar(150)
 DECLARE @direccionIP varchar(40)
@@ -14,10 +19,15 @@ DECLARE @noError int
 DECLARE @mensaje varchar(255)
 
 -- TODO: Set parameter values here.
-SELECT
+SELECT 
    @idPersona = ''
-  ,@idTipoTICS = ''
-  ,@herramientas = ''
+  ,@idIdioma = ''
+  ,@idIdiomaTipoCertificacion = ''
+  ,@nivel = ''
+  ,@idInstitucion = ''
+  ,@institucion = ''
+  ,@fecha = ''
+  ,@duracion = ''
   ,@usuarioRealizo = ''
   ,@dispositivo = ''
   ,@direccionIP = ''
@@ -25,10 +35,15 @@ SELECT
   --,@idCurriculumFormacion OUTPUT
 
 
-EXECUTE @RC = [app].[rhcCurriculum_Uso_TICSAgregarModificar] 
+EXECUTE @RC = [app].[rhcCurriculum_Lengua_ExtranjeraAgregarModificar] 
    @idPersona
-  ,@idTipoTICS
-  ,@herramientas
+  ,@idIdioma
+  ,@idIdiomaTipoCertificacion
+  ,@nivel
+  ,@idInstitucion
+  ,@institucion
+  ,@fecha
+  ,@duracion
   ,@usuarioRealizo
   ,@dispositivo
   ,@direccionIP
@@ -41,7 +56,6 @@ SELECT
    @idCurriculumFormacion as idCurriculumFormacion
   ,@noError as noError
   ,@mensaje as mensaje
-
 GO
 
 
