@@ -17,20 +17,21 @@ CREATE VIEW [dbo].[vtaI_rhcCurriculum_Formacion_Academica](
 )
 AS
 SELECT
-		rcc.idPersona
-     ,rcc.idCurriculum
-	 ,rcc.idCurriculumFormacion
-	 ,cfn.idNivelEducativo
-	 ,cfn.nivelEducativo
-	 ,rfp.idPais
-	 ,rfi.idInstitucion
-	 ,rfi.institucion
-	 ,rfi.nombreInstitucion
-	 ,cfe.idProgramaEducativo
-	 ,cfe.estudio
-	 ,cfe.nombreProgramaEducativo
-	 ,rfa.idAreaConocimiento
-	 ,rfa.areaConocimiento
+
+     rcc.[idPersona]
+    ,rcc.[idCurriculum]
+    ,rcc.[idCurriculumFormacion]
+    ,cfn.[idNivelEducativo]
+    ,cfn.[nivelEducativo]
+    ,rfp.[idPais]
+    ,rfi.[idInstitucion]
+    ,rfi.[institucion]
+    ,rfi.[nombreInstitucion]
+    ,cfe.[idProgramaEducativo]
+    ,cfe.[estudio]
+    ,cfe.[nombreProgramaEducativo]
+	,rfa.[idAreaConocimiento]
+	,rfa.[areaConocimiento]
 
 FROM dbo.vtaI_rhcCurriculum_Formacion_NivelEductaivo as cfn
 INNER JOIN dbo.vtaI_rhcCurriculum_Formacion_Pais rfp ON cfn.idCurriculumFormacion = rfp.idCurriculumFormacion 

@@ -17,21 +17,19 @@ CREATE VIEW [dbo].[vtaI_rhcCurriculum_Lengua_Extranjera](
 AS
 SELECT 
 
-     rcc.idPersona
-	,rcc.idCurriculum
-	,rcc.idCurriculumFormacion
-	,cfi.idIdioma
-	,cfi.idioma
-	,cfi.idIdiomaTipoCertificacion
-	,cfi.tipoCertificacion
-	,cfi.nivel
-	,rci.idInstitucion
-	,rci.nombreInstitucion
-	,rci.institucion
-	,cfd.duracion
-	,cfd.fecha
-
-
+     rcc.[idPersona]
+	,rcc.[idCurriculum]
+	,rcc.[idCurriculumFormacion]
+	,cfi.[idIdioma]
+	,cfi.[idioma]
+	,cfi.[idIdiomaTipoCertificacion]
+	,cfi.[tipoCertificacion]
+	,cfi.[nivel]
+	,rci.[idInstitucion]
+	,rci.[nombreInstitucion]
+	,rci.[institucion]
+	,cfd.[duracion]
+	,cfd.[fecha]
 
 FROM dbo.vtaI_rhcCurriculum_Formacion_Idioma as cfi
 INNER JOIN dbo.vtaI_rhcCurriculum_Formacion_Institucion as rci ON cfi.idCurriculumFormacion = rci.idCurriculumFormacion

@@ -15,17 +15,17 @@ CREATE VIEW [dbo].[vtaI_rhcCurriculum_Formacion_Adicional](
 AS
 SELECT 
 
-		 rcc.idPersona
-		,rcc.idCurriculum
-		,rcc.idCurriculumFormacion
-		,fel.puesto
-		,fel.actividades
-		,cfp.fechaInicio
-		,cfp.fechaTermino
-		,rci.idInstitucion
-		,rci.institucion
-		,rci.nombreInstitucion
-		,rfp.idPais
+     rcc.[idPersona]
+    ,rcc.[idCurriculum]
+    ,rcc.[idCurriculumFormacion]
+    ,fel.[puesto]
+    ,fel.[actividades]
+    ,cfp.[fechaInicio]
+    ,cfp.[fechaTermino]
+    ,rci.[idInstitucion]
+    ,rci.[institucion]
+    ,rci.[nombreInstitucion]
+    ,rfp.[idPais]
 
 FROM dbo.vtaI_rhcCurriculum_Formacion_ExperenciaLaboral as fel
 INNER JOIN  dbo.vtaI_rhcCurriculum_Formacion_Periodicidad as cfp ON fel.idCurriculumFormacion = cfp.idCurriculumFormacion

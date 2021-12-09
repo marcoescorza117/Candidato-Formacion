@@ -15,17 +15,17 @@ CREATE VIEW [dbo].[vtaI_rhcCurriculum_Formacion_Documento](
 AS
 SELECT 
 
-	 rcc.idPersona
-	,rcc.idCurriculum
-	,cfd.idCurriculumFormacion
-	,rhd.idDocumento
-	,rhd.idTipoDocumento
-	,rhd.tipoDocumento
-	,rhd.archivo
-	,rhd.descripcion
-	,rhd.archivoServidor
-	,rhd.archivoServidorRuta
-	,rhd.fechaRegistro
+	 rcc.[idPersona]
+	,rcc.[idCurriculum]
+	,cfd.[idCurriculumFormacion]
+	,rhd.[idDocumento]
+	,rhd.[idTipoDocumento]
+	,rhd.[tipoDocumento]
+	,rhd.[archivo]
+	,rhd.[descripcion]
+	,rhd.[archivoServidor]
+	,rhd.[archivoServidorRuta]
+	,rhd.[fechaRegistro]
 
 FROM dbo.vtaI_rhcCurriculum_Formacion as rfc
 INNER JOIN dbo.vtaI_rhcCurriculum_Formacion_Documento as cfd ON rfc.idCurriculumFormacion = cfd.idCurriculumFormacion 

@@ -12,15 +12,15 @@ CREATE VIEW [dbo].[vtaI_rhcCurriculum_Experiencia_Cientifica](
 )
 AS
 SELECT 
-	 rcc.idPersona
-	,rcc.idCurriculum
-	,rcc.idCurriculumFormacion
-	,pcd.idTipoPerfilCientificoDocente
-	,pcd.tipoPerfilCientificoDocente
-	,pcd.idPerfilCientificoDocente
-	,pcd.perfilCientificoDocente
-	,cfp.fechaInicio
-	,cfp.fechaTermino
+	 rcc.[idPersona]
+	,rcc.[idCurriculum]
+	,rcc.[idCurriculumFormacion]
+	,pcd.[idTipoPerfilCientificoDocente]
+	,pcd.[tipoPerfilCientificoDocente]
+	,pcd.[idPerfilCientificoDocente]
+	,pcd.[perfilCientificoDocente]
+	,cfp.[fechaInicio]
+	,cfp.[fechaTermino]
 
 from dbo.vtaI_rhcCurriculum_Formacion_PerfilCientificoDocente as pcd
 INNER JOIN  dbo.vtaI_rhcCurriculum_Formacion_Periodicidad as cfp ON pcd.idCurriculumFormacion = cfp.idCurriculumFormacion
