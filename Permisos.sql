@@ -1,7 +1,10 @@
 --Conceder permisos al usuario rhc_Candidatos
 
+use siiaRecursosHumanosCandidatos
+
 --The objects below are the views 
 --grant select on dbo.[ObjectName] to rh_Candidatos
+
 grant select on dbo.vtaC_rhcAreaConocimiento to rh_Candidatos;
 grant select on dbo.vtaC_rhcDocumento to rh_Candidatos;
 grant select on dbo.vtaC_rhcIdioma to rh_Candidatos;
