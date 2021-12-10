@@ -1,3 +1,5 @@
+use siiaRecursosHumanosCandidatos;
+
 --Formacion academica
 SELECT * FROM dbo.vtaI_rhcCurriculum_Formacion_NivelEductaivo as cfn
 INNER JOIN dbo.vtaI_rhcCurriculum_Formacion_Pais rfp ON cfn.idCurriculumFormacion = rfp.idCurriculumFormacion --- uno a uno....
