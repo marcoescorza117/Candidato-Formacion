@@ -44,3 +44,7 @@ grant execute on app.rhcCurriculum_Uso_TICSAgregarModificar to rh_Candidatos;
 grant execute on app.rhcCurriculum_Lengua_ExtranjeraAgregarModificar to rh_Candidatos;
 grant execute on app.rhcDocumentoAgregarModificar to rh_Candidatos;
 grant execute on app.rhcCurriculum_Formacion_DocumentoAgregarModificar to rh_Candidatos;
+
+grant execute on app.rhcTipoTICSAgregarModificar to rh_Candidatos;
+
+
