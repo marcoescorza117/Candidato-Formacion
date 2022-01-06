@@ -22,3 +22,6 @@
     └── 3.-[rhcCurriculum_Formacion_DocumentoAgregarModificar].sql
 
 6 directories, 15 files
+
+
+Recordar que se tienen que enviar solo objetos de tipo I para revision
