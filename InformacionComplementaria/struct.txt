@@ -1,0 +1,107 @@
+.
+├── Permisos.sql
+├── sps
+│   ├── 1.-info_complementaria
+│   │   ├── rhc_Persona_Entrevista_Empleo
+│   │   │   ├── 1.-rhcUPT_Persona_Entrevista_EmpleoAgregarDatos.sql
+│   │   │   ├── 10.-rhcUPI_DatosPersona_Entrevista_EmpleoAgregarModificar.sql
+│   │   │   ├── 10.-rhcUPI_Persona_Entrevista_EmpleoAgregarModificarValidar.sql
+│   │   │   ├── 12.-apprhcPersona_Entrevista_EmpleoAgregarModificar.sql
+│   │   │   ├── 2.-rhcUPT_Persona_Entrevista_EmpleoModificarDatos.sql
+│   │   │   ├── 4.-rhcUPT_Persona_Entrevista_EmpleoAgregar.sql
+│   │   │   ├── 6.-rhcUPT_Persona_Entrevista_EmpleoModificar.sql
+│   │   │   ├── 7.-rhcUPT_Persona_Entrevista_EmpleoAgregarModificar.sql
+│   │   │   └── 8.-rhcUPI_Persona_Entrevista_EmpleoAgregarModificar.sql
+│   │   ├── rhc_Persona_LenguaIndigena
+│   │   │   └── sps_identityrhc_Persona_LenguaIndigena
+│   │   │       ├── 1.-rhcUPT_Persona_LenguaIndigenaAgregarDatos.sql
+│   │   │       ├── 10.-rhcUPI_DatosPersona_LenguaIndigenaAgregarModificar.sql
+│   │   │       ├── 10.-rhcUPI_Persona_LenguaIndigenaAgregarModificarValidar.sql
+│   │   │       ├── 12.-apprhcPersona_LenguaIndigenaAgregarModificar.sql
+│   │   │       ├── 2.-rhcUPT_Persona_LenguaIndigenaModificarDatos.sql
+│   │   │       ├── 4.-rhcUPT_Persona_LenguaIndigenaAgregar.sql
+│   │   │       ├── 6.-rhcUPT_Persona_LenguaIndigenaModificar.sql
+│   │   │       ├── 7.-rhcUPT_Persona_LenguaIndigenaAgregarModificar.sql
+│   │   │       └── 8.-rhcUPI_Persona_LenguaIndigenaAgregarModificar.sql
+│   │   ├── rhc_Persona_Pariente
+│   │   │   ├── rhc_Persona_Pariente
+│   │   │   │   ├── 1.-rhcUPT_Persona_ParienteAgregarDatos.sql
+│   │   │   │   ├── 10.-rhcUPI_DatosPersona_ParienteAgregarModificar.sql
+│   │   │   │   ├── 10.-rhcUPI_Persona_ParienteAgregarModificarValidar.sql
+│   │   │   │   ├── 12.-apprhcPersona_ParienteAgregarModificar.sql
+│   │   │   │   ├── 2.-rhcUPT_Persona_ParienteModificarDatos.sql
+│   │   │   │   ├── 4.-rhcUPT_Persona_ParienteAgregar.sql
+│   │   │   │   ├── 6.-rhcUPT_Persona_ParienteModificar.sql
+│   │   │   │   ├── 7.-rhcUPT_Persona_ParienteAgregarModificar.sql
+│   │   │   │   └── 8.-rhcUPI_Persona_ParienteAgregarModificar.sql
+│   │   │   └── rhc_Persona_Pariente_Adscripcion
+│   │   │       ├── 1.-rhcUPT_Persona_Pariente_AdscripcionAgregarDatos.sql
+│   │   │       ├── 3.-rhcUPT_Persona_Pariente_AdscripcionModificarDatos.sql
+│   │   │       ├── 4.-rhcUPT_Persona_Pariente_AdscripcionAgregar.sql
+│   │   │       ├── 6.-rhcUPT_Persona_Pariente_AdscripcionModificar.sql
+│   │   │       ├── 7.-rhcUPT_Persona_Pariente_AdscripcionModificar.sql
+│   │   │       └── 8.-rhcUPI_Persona_Pariente_AdscripcionAgregarModificar.sql
+│   │   └── rhc_Persona_TipoDiscapacidad
+│   │       ├── 1.-rhcUPT_Persona_TipoDiscapacidadAgregarDatos.sql
+│   │       ├── 10.-rhcUPI_DatosPersona_TipoDiscapacidadAgregarModificar.sql
+│   │       ├── 10.-rhcUPI_Persona_TipoDiscapacidadAgregarModificarValidar.sql
+│   │       ├── 12.-apprhcPersona_TipoDiscapacidadAgregarModificar.sql
+│   │       ├── 2.-rhcUPT_Persona_TipoDiscapacidadModificarDatos.sql
+│   │       ├── 4.-rhcUPT_Persona_TipoDiscapacidadAgregar.sql
+│   │       ├── 6.-rhcUPT_Persona_TipoDiscapacidadModificar.sql
+│   │       ├── 7.-rhcUPT_Persona_TipoDiscapacidadAgregarModificar.sql
+│   │       └── 8.-rhcUPI_Persona_TipoDiscapacidadAgregarModificar.sql
+│   └── 2.-docs
+│       └── rhc_Persona_Documento
+│           ├── 1.-rhcUPT_Persona_DocumentoAgregarDatos.sql
+│           ├── 10.-rhcUPI_DatosPersona_DocumentoAgregarModificar.sql
+│           ├── 10.-rhcUPI_Persona_DocumentoAgregarModificarValidar.sql
+│           ├── 12.-apprhcPersona_DocumentoAgregarModificar.sql
+│           ├── 2.-rhcUPT_Persona_DocumentoModificarDatos.sql
+│           ├── 4.-rhcUPT_Persona_DocumentoAgregar.sql
+│           ├── 6.-rhcUPT_Persona_DocumentoModificar.sql
+│           ├── 7.-rhcUPT_Persona_DocumentoAgregarModificar.sql
+│           └── 8.-rhcUPI_Persona_DocumentoAgregarModificar.sql
+├── struct.txt
+└── vtas
+    ├── rhc_LenguaIndigena
+    │   ├── vtaC_rhcLenguaIndigena.sql
+    │   ├── vtaI_rhcLenguaIndigena.sql
+    │   └── vtaT_rhcLenguaIndigena.sql
+    ├── rhc_Persona_Documento
+    │   ├── vtaC_rhcPersona_Documento.sql
+    │   ├── vtaI_rhcPersona_Documento.sql
+    │   └── vtaT_rhcPersona_Documento.sql
+    ├── rhc_Persona_Entrevista_Empleo
+    │   ├── vtaC_rhcPersona_Entrevista_Empleo.sql
+    │   ├── vtaI_rhcPersona_Entrevista_Empleo.sql
+    │   └── vtaT_rhcPersona_Entrevista_Empleo.sql
+    ├── rhc_Persona_LenguaIndigena
+    │   ├── vtaC_rhcPersona_LenguaIndigena.sql
+    │   ├── vtaI_rhcPersona_LenguaIndigena.sql
+    │   └── vtaT_rhcPersona_LenguaIndigena.sql
+    ├── rhc_Persona_Pariente
+    │   ├── rhc_Persona_Pariente_Adscripcion
+    │   │   ├── vtaI_rhcPersona_Pariente_Adscripcion.sql
+    │   │   └── vtaT_rhcPersona_Pariente_Adscripcion.sql
+    │   ├── vtaC_rhcPersona_Pariente.sql
+    │   ├── vtaI_rhcPersona_Pariente.sql
+    │   └── vtaT_rhcPersona_Pariente.sql
+    ├── rhc_Persona_TipoDiscapacidad
+    │   ├── vtaC_rhcPersona_TipoDiscapacidad.sql
+    │   ├── vtaI_rhcPersona_TipoDiscapacidad.sql
+    │   └── vtaT_rhcPersona_TipoDiscapacidad.sql
+    ├── rhc_TipoDiscapacidad
+    │   ├── vtaC_rhcTipoDiscapacidad.sql
+    │   ├── vtaI_rhcTipoDiscapacidad.sql
+    │   └── vtaT_rhcTipoDiscapacidad.sql
+    ├── rhc_TipoDiscapacidad_Jerarquia
+    │   ├── vtaC_rhcTipoDiscapacidad_Jerarquia.sql
+    │   ├── vtaI_rhcTipoDiscapacidad_Jerarquia.sql
+    │   └── vtaT_rhcTipoDiscapacidad_Jerarquia.sql
+    └── rhc_TipoParentesco
+        ├── vtaC_rhcTipoParentesco.sql
+        ├── vtaI_rhcTipoParentesco.sql
+        └── vtaT_rhcTipoParentesco.sql
+
+22 directories, 82 files
